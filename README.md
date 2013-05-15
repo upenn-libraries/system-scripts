@@ -11,7 +11,7 @@ If the script isn't self explanitory, please leave a README.md as well
 
 license
 ========
-All code is licensed for the University of Pensylvania Libraries using the [ECL2](http://opensource.org/licenses/ECL-2.0),
+All code is licensed under the University of Pensylvania Libraries using the [ECL2](http://opensource.org/licenses/ECL-2.0) license,
 which is similar to the Apache 2 license.
 
 
