@@ -5,8 +5,8 @@
 #   chkconfig: 345 56 10
 #   description: Startup/shutdown script for nexus server
 #
-#   If used elsewhere, user name and app name need to change.  script assumes you are using the 
-#   standard distribution of jetty
+#   User name and app name need to change based on the application jetty is deploying.  
+#   script assumes you are using the standard distribution of jetty.
 #
 APP_HOME=/home/nexus/jetty-current
 APP_USER="nexus"
