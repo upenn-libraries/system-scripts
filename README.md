@@ -1,4 +1,4 @@
-system-scripts
+upenn-system-scripts
 ==============
 
-Contains helpful system scripts
+Contains helpful system scrypts used at upenn library.
