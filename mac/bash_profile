@@ -1,0 +1,26 @@
+#useful bash_profile for groovy / grails / and java programming
+
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PATH='/usr/local/mysql/bin':$PATH
+export PATH='/Applications/Sublime Text 2.app/Contents/SharedSupport/bin':$PATH
+export PATH='/usr/local/share/npm/bin':$PATH
+export PATH='/usr/local/bin':$PATH
+
+function useJava6 {
+	#java 6
+	export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home	
+}
+
+function useJava7 {
+	#java 7
+	export JAVA_HOME=/Library/Java/JavaVirtualMachines/current/Contents/Home	
+}
+
+#by default use java 6
+useJava6
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/tbarker/.gvm/bin/gvm-init.sh" ]] && source "/Users/tbarker/.gvm/bin/gvm-init.sh"
