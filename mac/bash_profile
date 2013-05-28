@@ -1,4 +1,4 @@
-#useful bash_profile for groovy / grails / and java programming
+#useful bash_profile for mac environment for groovy / grails / and java programming
 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
