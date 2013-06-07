@@ -23,4 +23,4 @@ function useJava7 {
 useJava6
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/tbarker/.gvm/bin/gvm-init.sh" ]] && source "/Users/tbarker/.gvm/bin/gvm-init.sh"
+[[ -s "$HOME/.gvm/bin/gvm-init.sh" ]] && source "$HOME/.gvm/bin/gvm-init.sh"
