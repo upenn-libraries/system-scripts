@@ -16,6 +16,7 @@ function useJava6 {
 
 function useJava7 {
 	#java 7
+	#you will have to create the symbolic link current, the versions reside in JavaVirtualMachines directory
 	export JAVA_HOME=/Library/Java/JavaVirtualMachines/current/Contents/Home	
 }
 
